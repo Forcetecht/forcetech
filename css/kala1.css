@@ -1,0 +1,94 @@
+@font-face {
+  font-family: naznin;
+  src: url(../font/vazir-font-v16.1.0/Vazir-Bold.ttf);
+}
+
+
+
+body {
+  font-family: naznin;
+  direction: rtl;
+  font-size: 90%;
+  background: linear-gradient(-45deg, rgb(163, 57, 233) 0%, #32fc1f 100%);
+}
+
+div.kala1 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.kala1 img {
+  width: 40%;
+  height: auto;
+  border-radius: 10%;
+  margin-right: 2.5%;
+  border: 2px solid yellow;
+  border-radius: 30px;
+}
+
+div.p {
+  display: flow-root;
+  justify-content: center;
+  text-align: center;
+  border: 5px solid rgb(36, 111, 223);
+  border-radius: 20px;
+  margin: 2% 10% 2% 10%;
+  padding: 2%;
+
+}
+
+div.tozihat {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+div.sefaresh {
+  display: 1 1 flex;
+  justify-content: center;
+  text-align: center;
+  border: 5px solid rgb(36, 111, 223);
+  border-radius: 20px;
+  margin: 2% 10% 2% 10%;
+  padding: 2%;
+
+
+}
+
+div.sefares {
+  text-align: center;
+  justify-content: center;
+}
+
+div.tamas {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: none;
+  background-color: #30C04F;
+  padding: 3px;
+  margin: 5px;
+
+}
+
+.button:hover {
+  background-color: #36c1e4;
+}
